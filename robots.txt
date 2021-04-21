@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://sidneyreeve.github.io/sitemap.xml

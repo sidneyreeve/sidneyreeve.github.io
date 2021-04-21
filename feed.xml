@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Sidney Reeve</title>
+    <link href="https://sidneyreeve.github.io/feed.xml" rel="self" />
+    <link href="https://sidneyreeve.github.io" />
+    <updated>2021-04-21T18:44:58+01:00</updated>
+    <author>
+        <name>Sidney Reeve</name>
+    </author>
+    <id>https://sidneyreeve.github.io</id>
+
+    <entry>
+        <title>Lake District October 2020</title>
+        <author>
+            <name>Sidney Reeve</name>
+        </author>
+        <link href="https://sidneyreeve.github.io/october2020.html"/>
+        <id>https://sidneyreeve.github.io/october2020.html</id>
+
+        <updated>2021-04-21T18:44:58+01:00</updated>
+            <summary>
+                <![CDATA[
+                     To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video&lt;/a &gt; 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p> </p>
+<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+<p> </p>
+<!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+<p><video loading="lazy" width="640" height="264" id="my-video" class="video-js" controls="controls" preload="auto" poster="" data-setup="{}">
+    <source src="https://stream.mux.com/2LR9qLAdLxiLtNznHZOorX101QL02yVNIfa1TfTWPeS3U.m3u8?redundant_streams=true" type="application/mpeg-x" />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video&lt;/a
+      &gt;
+    </a></p>
+  </video>
+<script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
