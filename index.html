@@ -3,5 +3,54 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+<video id="myVideo" poster="https://image.mux.com/2LR9qLAdLxiLtNznHZOorX101QL02yVNIfa1TfTWPeS3U/thumbnail.jpg" controls></video>
+
+<!-- Use HLS.js to support the HLS format in browsers. -->
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script>
+  (function(){
+    // Replace with your asset's playback ID
+    var playbackId = "2LR9qLAdLxiLtNznHZOorX101QL02yVNIfa1TfTWPeS3U";
+    var url = "https://stream.mux.com/" + playbackId + ".m3u8?redundant_streams=true";
+    var video = document.getElementById("myVideo");
+    
+    // Let native HLS support handle it if possible
+    if (video.canPlayType('application/vnd.apple.mpegurl')) {
+      video.src = url;
+    } else if (Hls.isSupported()) {
+      // HLS.js-specific setup code
+      hls = new Hls();
+      hls.loadSource(url);
+      hls.attachMedia(video);
+    }
+  })();
+</script>
+
+<script src="https://src.litix.io/core/3/mux.js"></script>
+
+<script>
+  window.muxPlayerInitTime = Date.now();
+</script>
+
+<script>
+  // Initialize Mux Data monitoring
+  if (typeof mux !== 'undefined') {
+    mux.monitor('#myVideo', {
+      debug: false,
+      data: {
+        env_key: 'kibmsb0u21flqehljvo1amirt', // required
+
+        // Metadata
+        player_name: 'Sidney Player', // ex: 'My Main Player'
+        player_init_time: window.muxPlayerInitTime, // ex: 1451606400000
+        viewer_user_id: '',
+        video_id: 'oct2020',
+        video_title: 'October 2020',
+        video_stream_type: 'on-demand',
+
+      }
+    });
+  }
+</script>
 </body>
 </html>
