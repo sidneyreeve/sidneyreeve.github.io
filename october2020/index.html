@@ -253,33 +253,6 @@ gtag("config", "UA-78698984-1", {"anonymize_ip":true});
 		<div class="entry-content">
 
 			<p>
-<script src="https://src.litix.io/core/3/mux.js"></script>
-
-<script>
-  window.muxPlayerInitTime = Date.now();
-</script>
-
-<script>
-  // Initialize Mux Data monitoring
-  if (typeof mux !== 'undefined') {
-    mux.monitor('#myVideo', {
-      debug: false,
-      data: {
-        env_key: 'kibmsb0u21flqehljvo1amirt', // required
-
-        // Metadata
-        player_name: 'Sidney Player', // ex: 'My Main Player'
-        player_init_time: window.muxPlayerInitTime, // ex: 1451606400000
-        viewer_user_id: '',
-        video_id: 'oct2020',
-        video_title: 'October 2020',
-        video_stream_type: 'on-demand',
-
-      }
-    });
-  }
-</script>
-
 <head>
   <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
 
@@ -294,12 +267,40 @@ gtag("config", "UA-78698984-1", {"anonymize_ip":true});
     controls
     preload="auto"
     poster="https://image.mux.com/2LR9qLAdLxiLtNznHZOorX101QL02yVNIfa1TfTWPeS3U/thumbnail.jpg"
-    data-setup="{}"
+    data-setup='{
+    "timelineHoverPreviews": true
+  }'
   >
     <source src="https://stream.mux.com/2LR9qLAdLxiLtNznHZOorX101QL02yVNIfa1TfTWPeS3U.m3u8?redundant_streams=true" type="application/x-mpegURL" />
   </video>
 
   <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+</body>
+
+<script>
+  const playerInitTime = Date.now();
+
+  // EITHER initialize Mux Data monitoring like this
+  videojs('my-video', {
+    plugins: {
+      mux: {
+        debug: false,
+        data: {
+          env_key: 'kibmsb0u21flqehljvo1amirt', // required
+
+          // Metadata
+          player_name: 'Sidney Player', // ex: 'My Main Player'
+          player_init_time: playerInitTime, // ex: 1451606400000
+		  viewer_user_id: '',
+		  video_id: 'oct2020',
+		  video_title: 'October 2020',
+          video_stream_type: 'on-demand',
+
+        }
+      }
+    }
+  });
+</script>  
 </body>
 </p>
 
