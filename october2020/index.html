@@ -253,56 +253,56 @@ gtag("config", "UA-78698984-1", {"anonymize_ip":true});
 		<div class="entry-content">
 
 			<p>
-<head>
-  <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+<video id="myVideo" poster="https://image.mux.com/2LR9qLAdLxiLtNznHZOorX101QL02yVNIfa1TfTWPeS3U/thumbnail.jpg" controls></video>
 
-  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
-</head>
+<!-- Use HLS.js to support the HLS format in browsers. -->
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script>
+  (function(){
+    // Replace with your asset's playback ID
+    var playbackId = "2LR9qLAdLxiLtNznHZOorX101QL02yVNIfa1TfTWPeS3U";
+    var url = "https://stream.mux.com/" + playbackId + ".m3u8?redundant_streams=true";
+    var video = document.getElementById("myVideo");
+    
+    // Let native HLS support handle it if possible
+    if (video.canPlayType('application/vnd.apple.mpegurl')) {
+      video.src = url;
+    } else if (Hls.isSupported()) {
+      // HLS.js-specific setup code
+      hls = new Hls();
+      hls.loadSource(url);
+      hls.attachMedia(video);
+    }
+  })();
+</script>
 
-<body>
-  <video
-    id="my-video"
-    class="video-js vjs-fluid"
-    controls
-    preload="auto"
-    poster="https://image.mux.com/2LR9qLAdLxiLtNznHZOorX101QL02yVNIfa1TfTWPeS3U/thumbnail.jpg"
-    data-setup='{}'
-  >
-    <source src="https://stream.mux.com/2LR9qLAdLxiLtNznHZOorX101QL02yVNIfa1TfTWPeS3U.m3u8?redundant_streams=true" type="application/x-mpegURL" />
-  </video>
-
-  <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
-</body>
+<script src="https://src.litix.io/core/3/mux.js"></script>
 
 <script>
-  const playerInitTime = Date.now();
+  window.muxPlayerInitTime = Date.now();
+</script>
 
-  // EITHER initialize Mux Data monitoring like this
-  videojs('my-video', {
-    plugins: {
-      mux: {
-        debug: false,
-        data: {
-          env_key: 'kibmsb0u21flqehljvo1amirt', // required
+<script>
+  // Initialize Mux Data monitoring
+  if (typeof mux !== 'undefined') {
+    mux.monitor('#myVideo', {
+      debug: false,
+      data: {
+        env_key: 'kibmsb0u21flqehljvo1amirt', // required
 
-          // Metadata
-          player_name: 'Sidney Player', // ex: 'My Main Player'
-          player_init_time: playerInitTime, // ex: 1451606400000
-		  viewer_user_id: '',
-		  video_id: 'oct2020',
-		  video_title: 'October 2020',
-          video_stream_type: 'on-demand',
+        // Metadata
+        player_name: 'Sidney Player', // ex: 'My Main Player'
+        player_init_time: window.muxPlayerInitTime, // ex: 1451606400000
+        viewer_user_id: '',
+        video_id: 'oct2020',
+        video_title: 'October 2020',
+        video_stream_type: 'on-demand',
 
-        }
       }
-    }
-  });
-</script>  
-</body>
+    });
+  }
+</script>
 </p>
-
-
 
 		</div>
 <!-- .entry-content -->
