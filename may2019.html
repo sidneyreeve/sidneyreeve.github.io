@@ -13,6 +13,11 @@
 	<!-- This site is optimized with the Yoast SEO plugin v18.6 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Lake District May 2019 - Sidney Reeve</title>
 	<link rel="canonical" href="https://www.sidneyreeve.co.uk/may2019">
+	<meta property="og:type" content="video.episode" />
+	<meta property="og:video" content="https://stream.mux.com/LTRa8LQJj5reE3q01qbcauYCtRxwR4kvSMo7CgfropmE/high.mp4" />
+	<meta name="twitter:site" content="@SiddersOfficial">
+	<meta name="twitter:card" content="player" />
+	<meta name="twitter:player" content="https://www.sidneyreeve.co.uk/may2019" />
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Lake District May 2019 - Sidney Reeve">
@@ -222,44 +227,7 @@ img.emoji {
     console.error("This is a legacy browser that doesn't support MSE");
   }
 </script>
-
-<script src="https://src.litix.io/core/4/mux.js"></script>
-
-<script>
-  window.muxPlayerInitTime = Date.now();
-</script>
-				
-<script>
-  if (Hls.isSupported()) {
-    let hls = new Hls();
-
-    // we're using a Mux HLS URL in this example, but the Mux Data integration
-    // with HLS.js works with any HLS url
-    hls.loadSource('https://stream.mux.com/yb2L3z3Z4IKQH02HYkf9xPToVYkOC85WA.m3u8');
-    hls.attachMedia(videoEl);
-
-    if (typeof mux !== 'undefined') {
-      const videoEl = document.querySelector('#my-player');
-
-      mux.monitor(videoEl, {
-        debug: false,
-        hlsjs: hls,
-        Hls: Hls,
-        data: {
-          env_key: 'kibmsb0u21flqehljvo1amirt', // required
-          // Metadata fields
-          player_name: 'Sidney Player', // any arbitrary string you want to use to identify this player
-          player_init_time: window.muxPlayerInitTime // ex: 1451606400000
-		
-	  // Video Metadata
-  	  video_id: 'may2019', // ex: 'abcd123'
-   	  video_title: 'May 2019', // ex: 'My Great Video'
-	  video_stream_type: 'on-demand', // 'live' or 'on-demand'
-        }
-      });
-    }
-  }
-</script>								
+							
 </p>
 
 		</div>
