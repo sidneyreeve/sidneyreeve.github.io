@@ -222,6 +222,52 @@ img.emoji {
     console.error("This is a legacy browser that doesn't support MSE");
   }
 </script>
+
+<script src="https://src.litix.io/core/4/mux.js"></script>
+
+<script>
+  window.muxPlayerInitTime = Date.now();
+</script>
+
+<video
+  id="my-player"
+  controls
+  width="960"
+  height="400"
+/>
+
+<script>
+  if (Hls.isSupported()) {
+    let hls = new Hls();
+
+    // we're using a Mux HLS URL in this example, but the Mux Data integration
+    // with HLS.js works with any HLS url
+    hls.loadSource('https://stream.mux.com/LTRa8LQJj5reE3q01qbcauYCtRxwR4kvSMo7CgfropmE.m3u8');
+    hls.attachMedia(videoEl);
+
+    if (typeof mux !== 'undefined') {
+      const videoEl = document.querySelector('#my-player');
+
+      mux.monitor(videoEl, {
+        debug: false,
+        hlsjs: hls,
+        Hls: Hls,
+        data: {
+          env_key: 'kibmsb0u21flqehljvo1amirt', // required
+          // Metadata fields
+          player_name: 'Sidney Player', // any arbitrary string you want to use to identify this player
+          player_init_time: window.muxPlayerInitTime // ex: 1451606400000
+
+ 	   // Video Metadata
+	    video_id: 'may2019', // ex: 'abcd123'
+	    video_title: 'May 2019', // ex: 'My Great Video'
+	    video_stream_type: 'on-demand', // 'live' or 'on-demand'
+        }
+      });
+    }
+  }
+</script>
+				
 </p>
 
 		</div>
