@@ -206,6 +206,8 @@ img.emoji {
 			<p>
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
+<video id="my-player" poster="https://image.mux.com/LTRa8LQJj5reE3q01qbcauYCtRxwR4kvSMo7CgfropmE/thumbnail.jpg" controls style="width: 100%;"></video>
+				
 <script>
   const video = document.querySelector('#my-player');
   const src = 'https://stream.mux.com/LTRa8LQJj5reE3q01qbcauYCtRxwR4kvSMo7CgfropmE.m3u8?redundant_streams=true';
@@ -226,8 +228,6 @@ img.emoji {
 <script>
   window.muxPlayerInitTime = Date.now();
 </script>
-
-<video id="my-player" poster="https://image.mux.com/LTRa8LQJj5reE3q01qbcauYCtRxwR4kvSMo7CgfropmE/thumbnail.jpg" controls style="width: 100%;"></video>
 				
 <script>
   if (Hls.isSupported()) {
