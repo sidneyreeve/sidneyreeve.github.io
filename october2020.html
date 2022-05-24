@@ -246,6 +246,33 @@ img.emoji {
     console.error("This is a legacy browser that doesn't support MSE");
   }
 </script>
+
+<script src="https://src.litix.io/core/4/mux.js"></script> 
+
+<script>
+  window.muxPlayerInitTime = Date.now();
+</script>
+
+<script>
+  // Initialize Mux Data monitoring by passing in the "id" attribute of your video player
+  if (typeof mux !== 'undefined') {
+    mux.monitor('#my-player', {
+      debug: false,
+      data: {
+        env_key: 'kibmsb0u21flqehljvo1amirt', // required
+
+        // Metadata fields
+        player_name: 'Sidney Player', // any arbitrary string you want to use to identify this player
+        player_init_time: window.muxPlayerInitTime , // ex: 1451606400000
+
+         // Video Metadata
+         video_id: 'october2020', // ex: 'abcd123'
+         video_title: 'Lake District October 2020', // ex: 'My Great Video'
+         video_stream_type: 'on-demand' // 'live' or 'on-demand'
+      }
+    });
+  }
+</script> 
 </p>
 
 		</div>
