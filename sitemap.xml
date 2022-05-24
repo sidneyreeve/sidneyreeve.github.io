@@ -146,41 +146,41 @@
 	
 	<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://dev.sidneyreeve.co.uk/</loc>
+		<loc>https://www.sidneyreeve.co.uk/</loc>
 	</url>
 	<url>
-		<loc>https://dev.sidneyreeve.co.uk/castleacre</loc>
+		<loc>https://www.sidneyreeve.co.uk/castleacre</loc>
 		<lastmod>2022-05-15T19:08:50+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/05/May-2022-Featured.jpg</image:loc>
+			<image:loc>https://www.sidneyreeve.co.uk/wp-content/uploads/2022/05/May-2022-Featured.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.sidneyreeve.co.uk/april2021</loc>
+		<loc>https://www.sidneyreeve.co.uk/april2021</loc>
 		<lastmod>2022-05-15T19:09:32+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/April-2021-Featured.jpg</image:loc>
+			<image:loc>https://www.sidneyreeve.co.uk/wp-content/uploads/2022/04/April-2021-Featured.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.sidneyreeve.co.uk/march2019</loc>
+		<loc>https://www.sidneyreeve.co.uk/march2019</loc>
 		<lastmod>2022-05-15T19:09:57+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/March-2019-Featured-scaled.jpg</image:loc>
+			<image:loc>https://www.sidneyreeve.co.uk/wp-content/uploads/2022/04/March-2019-Featured-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.sidneyreeve.co.uk/may2019</loc>
+		<loc>https://www.sidneyreeve.co.uk/may2019</loc>
 		<lastmod>2022-05-15T19:10:16+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/May-2019-Featured-scaled.jpg</image:loc>
+			<image:loc>https://www.sidneyreeve.co.uk/wp-content/uploads/2022/04/May-2019-Featured-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.sidneyreeve.co.uk/october2020</loc>
+		<loc>https://www.sidneyreeve.co.uk/october2020</loc>
 		<lastmod>2022-05-15T19:10:39+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/October-2020-Featured.jpg</image:loc>
+			<image:loc>https://www.sidneyreeve.co.uk/wp-content/uploads/2022/04/October-2020-Featured.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
