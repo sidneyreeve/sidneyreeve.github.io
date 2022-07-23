@@ -4,13 +4,6 @@
 		<loc>https://www.sidneyreeve.co.uk/</loc>
 	</url>
 	<url>
-		<loc>https://www.sidneyreeve.co.uk/castleacre</loc>
-		<lastmod>2022-05-15T19:08:50+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.sidneyreeve.co.uk/wp-content/uploads/2022/05/May-2022-Featured.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://www.sidneyreeve.co.uk/april2021</loc>
 		<lastmod>2022-05-15T19:09:32+00:00</lastmod>
 		<image:image>
@@ -36,6 +29,13 @@
 		<lastmod>2022-05-15T19:10:39+00:00</lastmod>
 		<image:image>
 			<image:loc>https://www.sidneyreeve.co.uk/wp-content/uploads/2022/04/October-2020-Featured.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.sidneyreeve.co.uk/castleacre</loc>
+		<lastmod>2022-07-23T09:35:50+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.sidneyreeve.co.uk/wp-content/uploads/2022/05/May-2022-Featured.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
