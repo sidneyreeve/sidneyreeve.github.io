@@ -10,7 +10,7 @@
 
 		<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-	<!-- This site is optimized with the Yoast SEO plugin v19.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<!-- This site is optimized with the Yoast SEO plugin v19.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Lake District October 2020 - Sidney Reeve</title>
 	<link rel="canonical" href="https://www.sidneyreeve.co.uk/october2020">
 	<meta property="og:locale" content="en_US">
@@ -232,8 +232,7 @@ img.emoji {
 
 <video id="my-player" poster="https://image.mux.com/2LR9qLAdLxiLtNznHZOorX101QL02yVNIfa1TfTWPeS3U/thumbnail.jpg" controls style="width: 100%;"></video>
 
-<script>
-  const video = document.querySelector('#my-player');
+<script>const video = document.querySelector('#my-player');
   const src = 'https://stream.mux.com/2LR9qLAdLxiLtNznHZOorX101QL02yVNIfa1TfTWPeS3U.m3u8?redundant_streams=true';
   if (video.canPlayType('application/vnd.apple.mpegurl')) {
     // Some browsers (safari and ie edge) support HLS natively
@@ -244,17 +243,13 @@ img.emoji {
     hls.attachMedia(video);
   } else {
     console.error("This is a legacy browser that doesn't support MSE");
-  }
-</script>
+  }</script>
 
 <script src="https://src.litix.io/core/4/mux.js"></script> 
 
-<script>
-  window.muxPlayerInitTime = Date.now();
-</script>
+<script>window.muxPlayerInitTime = Date.now();</script>
 
-<script>
-  // Initialize Mux Data monitoring by passing in the "id" attribute of your video player
+<script>// Initialize Mux Data monitoring by passing in the "id" attribute of your video player
   if (typeof mux !== 'undefined') {
     mux.monitor('#my-player', {
       debug: false,
@@ -271,8 +266,7 @@ img.emoji {
          video_stream_type: 'on-demand' // 'live' or 'on-demand'
       }
     });
-  }
-</script>
+  }</script>
 </p>
 
 		</div>
@@ -317,9 +311,7 @@ img.emoji {
 
 			</footer><!-- #site-footer -->
 
-			<script>
-	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
-	</script>
+			<script>/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);</script>
 	
 	</body>
 </html>
