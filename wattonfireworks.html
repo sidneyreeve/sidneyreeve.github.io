@@ -241,27 +241,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
 
 
-<p><script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <video id="video2" controls poster="https://image.mux.com/Uebol02b3H01S9cxJ9G01mOXXXWKdCVsJk2um5dKrL3Zwg/thumbnail.jpg"></video>
-    <script>if(Hls.isSupported())
-    {
-        var video2 = document.getElementById('video2');
-        var hls = new Hls();
-        hls.loadSource('https://stream.mux.com/Uebol02b3H01S9cxJ9G01mOXXXWKdCVsJk2um5dKrL3Zwg.m3u8');
-        hls.attachMedia(video2);
-        hls.on(Hls.Events.MANIFEST_PARSED,function()
-        {
-            video2.play();
-        });
-    }
-    else if (video2.canPlayType('application/vnd.apple.mpegurl'))
-    {
-        video2.src = 'https://stream.mux.com/Uebol02b3H01S9cxJ9G01mOXXXWKdCVsJk2um5dKrL3Zwg.m3u8';
-        video2.addEventListener('canplay',function()
-        {
-            video2.play();
-        });
-    }</script></p>
+<p><script src="https://cdn.jsdelivr.net/npm/@mux/mux-player"></script>
+<mux-player playback-id="Uebol02b3H01S9cxJ9G01mOXXXWKdCVsJk2um5dKrL3Zwg" metadata-video-title="Watton Fireworks 2023" accent-color="#A62B0C"></mux-player></p>
 
 
 
@@ -269,27 +250,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
 
 
-<p><script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <video id="video" controls poster="https://image.mux.com/GdJybLUXEdYChyNubT9GeR02kRv02qj8akicpAlkTefeE/thumbnail.jpg"></video>
-    <script>if(Hls.isSupported())
-    {
-        var video = document.getElementById('video');
-        var hls = new Hls();
-        hls.loadSource('https://stream.mux.com/GdJybLUXEdYChyNubT9GeR02kRv02qj8akicpAlkTefeE.m3u8');
-        hls.attachMedia(video);
-        hls.on(Hls.Events.MANIFEST_PARSED,function()
-        {
-            video.play();
-        });
-    }
-    else if (video.canPlayType('application/vnd.apple.mpegurl'))
-    {
-        video.src = 'https://stream.mux.com/GdJybLUXEdYChyNubT9GeR02kRv02qj8akicpAlkTefeE.m3u8';
-        video.addEventListener('canplay',function()
-        {
-            video.play();
-        });
-    }</script></p>
+<p><mux-player playback-id="GdJybLUXEdYChyNubT9GeR02kRv02qj8akicpAlkTefeE" metadata-video-title="Watton Fireworks 2022" accent-color="#A62B0C"></mux-player></p>
 
 
 
