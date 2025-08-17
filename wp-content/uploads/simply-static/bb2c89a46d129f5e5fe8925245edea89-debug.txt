@@ -1,0 +1,590 @@
+[2025-08-17 13:50:09] [class-ss-archive-creation-job.php:119] Starting a job; no job is presently running
+[2025-08-17 13:50:09] [class-ss-archive-creation-job.php:120] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2025-08-17 13:50:09] [class-ss-archive-creation-job.php:138] Pushing first task to queue: setup
+[2025-08-17 13:50:09] [class-ss-archive-creation-job.php:194] Current task: setup
+[2025-08-17 13:50:09] [class-ss-archive-creation-job.php:208] Performing task: setup
+[2025-08-17 13:50:09] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-08-17 13:50:09] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609\
+[2025-08-17 13:50:09] [class-ss-setup-task.php:72] Adding origin URL to queue: https://dev.sidneyreeve.co.uk/
+[2025-08-17 13:50:09] [class-yoast-integration.php:93] Adding sitemap URL to queue: https://dev.sidneyreeve.co.uk/sitemap.xml
+[2025-08-17 13:50:09] [class-yoast-integration.php:93] Adding sitemap URL to queue: https://dev.sidneyreeve.co.uk/sitemap_index.xml
+[2025-08-17 13:50:09] [class-yoast-integration.php:93] Adding sitemap URL to queue: https://dev.sidneyreeve.co.uk/main-sitemap.xsl
+[2025-08-17 13:50:09] [class-ss-archive-creation-job.php:233] We've found our next task: fetch_urls
+[2025-08-17 13:50:09] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-08-17 13:50:09] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-08-17 13:50:09] [class-ss-fetch-urls-task.php:69] Total pages: 4; Pages remaining: 4
+[2025-08-17 13:50:09] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/
+[2025-08-17 13:50:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 4
+[2025-08-17 13:50:09] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de11e1cbf-W4Z70g.tmp
+[2025-08-17 13:50:09] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/?simply_static_page=1
+[2025-08-17 13:50:09] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/?simply_static_page=1
+[2025-08-17 13:50:13] [class-ss-url-fetcher.php:103] Filesize: 32150 bytes
+[2025-08-17 13:50:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-08-17 13:50:13] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-08-17 13:50:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de11e1cbf-W4Z70g.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/index.html
+[2025-08-17 13:50:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:13] [class-ss-fetch-urls-task.php:159] Adding 25 URLs to the queue
+[2025-08-17 13:50:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:13] [class-ss-page.php:128] Checking Content Identical:86f3ba32d889ea8c503c2b49124e0a246715c832===. Value: FALSE
+[2025-08-17 13:50:13] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/sitemap.xml
+[2025-08-17 13:50:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 4
+[2025-08-17 13:50:13] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de15bc124-zGCnvg.tmp
+[2025-08-17 13:50:13] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/sitemap.xml?simply_static_page=2
+[2025-08-17 13:50:13] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/sitemap.xml?simply_static_page=2
+[2025-08-17 13:50:14] [class-ss-url-fetcher.php:103] Filesize: 32087 bytes
+[2025-08-17 13:50:14] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-08-17 13:50:14] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-08-17 13:50:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de16e79f4-vlTNFD.tmp
+[2025-08-17 13:50:14] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/sitemap.xml
+[2025-08-17 13:50:15] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-08-17 13:50:15] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2025-08-17 13:50:15] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-08-17 13:50:15] [class-ss-fetch-urls-task.php:204] redirect_url: https://dev.sidneyreeve.co.uk/sitemap_index.xml
+[2025-08-17 13:50:15] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2025-08-17 13:50:15] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2025-08-17 13:50:15] [class-ss-url-fetcher.php:233] New filename for static page: /sitemap.xml
+[2025-08-17 13:50:15] [class-ss-page.php:128] Checking Content Identical:3272835bd2cf4c63d8f289d46d4c7a8d0423462d===. Value: FALSE
+[2025-08-17 13:50:15] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/sitemap_index.xml
+[2025-08-17 13:50:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 4
+[2025-08-17 13:50:15] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de17971ab-p74khR.tmp
+[2025-08-17 13:50:15] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/sitemap_index.xml?simply_static_page=3
+[2025-08-17 13:50:15] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/sitemap_index.xml?simply_static_page=3
+[2025-08-17 13:50:16] [class-ss-url-fetcher.php:103] Filesize: 414 bytes
+[2025-08-17 13:50:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2025-08-17 13:50:16] [class-ss-url-fetcher.php:233] New filename for static page: /sitemap_index.xml
+[2025-08-17 13:50:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de17971ab-p74khR.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/sitemap_index.xml
+[2025-08-17 13:50:16] [class-ss-yoast-sitemap-handler.php:85] Copied C:\Users\Sidney\Documents\Local Sites\app\public\wp-content\plugins\wordpress-seo/css/main-sitemap.xsl to C:/Users/Sidney/Documents/Local Sites/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1755438609/main-sitemap.xsl
+[2025-08-17 13:50:16] [class-ss-yoast-sitemap-handler.php:64] Copied C:/Users/Sidney/Documents/Local Sites/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1755438609/sitemap_index.xml to C:/Users/Sidney/Documents/Local Sites/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1755438609/sitemap.xml
+[2025-08-17 13:50:16] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:16] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2025-08-17 13:50:16] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:16] [class-ss-page.php:128] Checking Content Identical:b97496a29aa34a6e7384a259092bb288032060e5===. Value: FALSE
+[2025-08-17 13:50:16] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/main-sitemap.xsl
+[2025-08-17 13:50:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 4
+[2025-08-17 13:50:16] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de184c7ed-xJbzTe.tmp
+[2025-08-17 13:50:16] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/main-sitemap.xsl?simply_static_page=4
+[2025-08-17 13:50:16] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/main-sitemap.xsl?simply_static_page=4
+[2025-08-17 13:50:16] [class-ss-url-fetcher.php:103] Filesize: 4171 bytes
+[2025-08-17 13:50:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml;charset=UTF-8
+[2025-08-17 13:50:16] [class-ss-url-fetcher.php:233] New filename for static page: /main-sitemap.xsl
+[2025-08-17 13:50:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de184c7ed-xJbzTe.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/main-sitemap.xsl
+[2025-08-17 13:50:16] [class-ss-yoast-sitemap-handler.php:64] Copied C:/Users/Sidney/Documents/Local Sites/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1755438609/sitemap_index.xml to C:/Users/Sidney/Documents/Local Sites/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1755438609/sitemap.xml
+[2025-08-17 13:50:16] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:16] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:16] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:16] [class-ss-page.php:128] Checking Content Identical:424bec392863c4738e378d4a55aeddc7d32cf1fc===. Value: FALSE
+[2025-08-17 13:50:16] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 4 pages/files
+[2025-08-17 13:50:16] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-08-17 13:50:16] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-08-17 13:50:16] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-08-17 13:50:16] [class-ss-fetch-urls-task.php:69] Total pages: 30; Pages remaining: 26
+[2025-08-17 13:50:16] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/assets/js/index.js
+[2025-08-17 13:50:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 30
+[2025-08-17 13:50:16] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de18eff2c-jInTXO.tmp
+[2025-08-17 13:50:16] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/assets/js/index.js?simply_static_page=5
+[2025-08-17 13:50:16] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/assets/js/index.js?simply_static_page=5
+[2025-08-17 13:50:17] [class-ss-url-fetcher.php:103] Filesize: 27908 bytes
+[2025-08-17 13:50:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2025-08-17 13:50:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwenty/assets/js/index.js
+[2025-08-17 13:50:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de18eff2c-jInTXO.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/themes/twentytwenty/assets/js/index.js
+[2025-08-17 13:50:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:17] [class-ss-page.php:128] Checking Content Identical:4305ac5162d4cb7a38998bc8dfdab29864aa8bcc===. Value: FALSE
+[2025-08-17 13:50:17] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wattonfireworks
+[2025-08-17 13:50:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 30
+[2025-08-17 13:50:17] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de1916e34-0Xr7iG.tmp
+[2025-08-17 13:50:17] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wattonfireworks?simply_static_page=6
+[2025-08-17 13:50:17] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wattonfireworks?simply_static_page=6
+[2025-08-17 13:50:18] [class-ss-url-fetcher.php:103] Filesize: 35551 bytes
+[2025-08-17 13:50:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-08-17 13:50:18] [class-ss-url-fetcher.php:233] New filename for static page: /wattonfireworks\index.html
+[2025-08-17 13:50:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de1916e34-0Xr7iG.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wattonfireworks\index.html
+[2025-08-17 13:50:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:18] [class-ss-fetch-urls-task.php:159] Adding 28 URLs to the queue
+[2025-08-17 13:50:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:18] [class-ss-page.php:128] Checking Content Identical:a3d5cb3e71a006e1d9b0c19822cf637a92947195===. Value: FALSE
+[2025-08-17 13:50:18] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/castleacre
+[2025-08-17 13:50:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 30
+[2025-08-17 13:50:18] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de1aec966-PgGY4J.tmp
+[2025-08-17 13:50:18] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/castleacre?simply_static_page=7
+[2025-08-17 13:50:18] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/castleacre?simply_static_page=7
+[2025-08-17 13:50:19] [class-ss-url-fetcher.php:103] Filesize: 35277 bytes
+[2025-08-17 13:50:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-08-17 13:50:19] [class-ss-url-fetcher.php:233] New filename for static page: /castleacre\index.html
+[2025-08-17 13:50:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de1aec966-PgGY4J.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/castleacre\index.html
+[2025-08-17 13:50:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:20] [class-ss-fetch-urls-task.php:159] Adding 28 URLs to the queue
+[2025-08-17 13:50:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:20] [class-ss-page.php:128] Checking Content Identical:14a9b6bf00d17cb6dbe36c9b02605f673827d7f5===. Value: FALSE
+[2025-08-17 13:50:20] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/april2021
+[2025-08-17 13:50:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 30
+[2025-08-17 13:50:20] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de1c863e2-AFSrk0.tmp
+[2025-08-17 13:50:20] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/april2021?simply_static_page=8
+[2025-08-17 13:50:20] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/april2021?simply_static_page=8
+[2025-08-17 13:50:21] [class-ss-url-fetcher.php:103] Filesize: 35490 bytes
+[2025-08-17 13:50:21] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-08-17 13:50:21] [class-ss-url-fetcher.php:233] New filename for static page: /april2021\index.html
+[2025-08-17 13:50:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de1c863e2-AFSrk0.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/april2021\index.html
+[2025-08-17 13:50:21] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:21] [class-ss-fetch-urls-task.php:159] Adding 28 URLs to the queue
+[2025-08-17 13:50:21] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:21] [class-ss-page.php:128] Checking Content Identical:82f0a84a37ab2cf181576ea3afaad9050f6f4c50===. Value: FALSE
+[2025-08-17 13:50:21] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/october2020
+[2025-08-17 13:50:21] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 30
+[2025-08-17 13:50:21] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:21] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de1dcdc0e-kxOZQN.tmp
+[2025-08-17 13:50:21] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/october2020?simply_static_page=9
+[2025-08-17 13:50:21] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/october2020?simply_static_page=9
+[2025-08-17 13:50:22] [class-ss-url-fetcher.php:103] Filesize: 35536 bytes
+[2025-08-17 13:50:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-08-17 13:50:22] [class-ss-url-fetcher.php:233] New filename for static page: /october2020\index.html
+[2025-08-17 13:50:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de1dcdc0e-kxOZQN.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/october2020\index.html
+[2025-08-17 13:50:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:23] [class-ss-fetch-urls-task.php:159] Adding 28 URLs to the queue
+[2025-08-17 13:50:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:23] [class-ss-page.php:128] Checking Content Identical:5e9af64b11fbfba7beaad00b0cf2c8ae9e7be6c5===. Value: FALSE
+[2025-08-17 13:50:23] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/may2019
+[2025-08-17 13:50:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 30
+[2025-08-17 13:50:23] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de1f289d6-Wai6mA.tmp
+[2025-08-17 13:50:23] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/may2019?simply_static_page=10
+[2025-08-17 13:50:23] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/may2019?simply_static_page=10
+[2025-08-17 13:50:23] [class-ss-url-fetcher.php:103] Filesize: 35480 bytes
+[2025-08-17 13:50:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-08-17 13:50:23] [class-ss-url-fetcher.php:233] New filename for static page: /may2019\index.html
+[2025-08-17 13:50:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de1f289d6-Wai6mA.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/may2019\index.html
+[2025-08-17 13:50:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:24] [class-ss-fetch-urls-task.php:159] Adding 28 URLs to the queue
+[2025-08-17 13:50:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:24] [class-ss-page.php:128] Checking Content Identical:63df058b663183273f6cd525b676aa91ee4e29a9===. Value: FALSE
+[2025-08-17 13:50:24] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/march2019
+[2025-08-17 13:50:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 30
+[2025-08-17 13:50:24] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de20a3436-VyBcuV.tmp
+[2025-08-17 13:50:24] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/march2019?simply_static_page=11
+[2025-08-17 13:50:24] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/march2019?simply_static_page=11
+[2025-08-17 13:50:25] [class-ss-url-fetcher.php:103] Filesize: 35527 bytes
+[2025-08-17 13:50:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-08-17 13:50:25] [class-ss-url-fetcher.php:233] New filename for static page: /march2019\index.html
+[2025-08-17 13:50:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de20a3436-VyBcuV.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/march2019\index.html
+[2025-08-17 13:50:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:25] [class-ss-fetch-urls-task.php:159] Adding 28 URLs to the queue
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:26] [class-ss-page.php:128] Checking Content Identical:5cdfa72306b2229fc266ae8f8f18c77a575fadb1===. Value: FALSE
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon.png
+[2025-08-17 13:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 30
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de2220b21-g4OkVn.tmp
+[2025-08-17 13:50:26] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon.png?simply_static_page=12
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon.png?simply_static_page=12
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:103] Filesize: 16512 bytes
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/04/cropped-icon.png
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de2220b21-g4OkVn.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/uploads/2022/04/cropped-icon.png
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:26] [class-ss-page.php:128] Checking Content Identical:b19309ecd057ce72348781b2c0d37a69c9f16d8f===. Value: FALSE
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-300x300.png
+[2025-08-17 13:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 30
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de222e021-LIqKSr.tmp
+[2025-08-17 13:50:26] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-300x300.png?simply_static_page=13
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-300x300.png?simply_static_page=13
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:103] Filesize: 12785 bytes
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/04/cropped-icon-300x300.png
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de222e021-LIqKSr.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/uploads/2022/04/cropped-icon-300x300.png
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:26] [class-ss-page.php:128] Checking Content Identical:ad46f1cab676fdb19126ee7e11842d86b9b27710===. Value: FALSE
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-150x150.png
+[2025-08-17 13:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 30
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de223ad67-OKYD2P.tmp
+[2025-08-17 13:50:26] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-150x150.png?simply_static_page=14
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-150x150.png?simply_static_page=14
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:103] Filesize: 4821 bytes
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/04/cropped-icon-150x150.png
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de223ad67-OKYD2P.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/uploads/2022/04/cropped-icon-150x150.png
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:26] [class-ss-page.php:128] Checking Content Identical:83abdc5f052bd9822a5ef7261eff349cc2836558===. Value: FALSE
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-270x270.png
+[2025-08-17 13:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 30
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de22486f1-jpZ725.tmp
+[2025-08-17 13:50:26] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-270x270.png?simply_static_page=15
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-270x270.png?simply_static_page=15
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:103] Filesize: 10974 bytes
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/04/cropped-icon-270x270.png
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de22486f1-jpZ725.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/uploads/2022/04/cropped-icon-270x270.png
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:26] [class-ss-page.php:128] Checking Content Identical:1b97b5bab420d4cb400d89bbf066fccdc7e2a78f===. Value: FALSE
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-192x192.png
+[2025-08-17 13:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 30
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de225ab60-L4aAS7.tmp
+[2025-08-17 13:50:26] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-192x192.png?simply_static_page=16
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-192x192.png?simply_static_page=16
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:103] Filesize: 6656 bytes
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/04/cropped-icon-192x192.png
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de225ab60-L4aAS7.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/uploads/2022/04/cropped-icon-192x192.png
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:26] [class-ss-page.php:128] Checking Content Identical:fd98c25ebcf665fe296c5fbe8992c08006d47e74===. Value: FALSE
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-180x180.png
+[2025-08-17 13:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 30
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de226b6ac-8eTsLQ.tmp
+[2025-08-17 13:50:26] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-180x180.png?simply_static_page=17
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-180x180.png?simply_static_page=17
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:103] Filesize: 6104 bytes
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/04/cropped-icon-180x180.png
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de226b6ac-8eTsLQ.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/uploads/2022/04/cropped-icon-180x180.png
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:26] [class-ss-page.php:128] Checking Content Identical:e0f7dc686d1890bd11dbc6ad448c43e5fadfc6ef===. Value: FALSE
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-32x32.png
+[2025-08-17 13:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 30
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de227a803-tg2wZE.tmp
+[2025-08-17 13:50:26] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-32x32.png?simply_static_page=18
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/cropped-icon-32x32.png?simply_static_page=18
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:103] Filesize: 740 bytes
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/04/cropped-icon-32x32.png
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de227a803-tg2wZE.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/uploads/2022/04/cropped-icon-32x32.png
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:26] [class-ss-page.php:128] Checking Content Identical:d430bfaf6089d14d8645711143c842787d12c556===. Value: FALSE
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/feed
+[2025-08-17 13:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 30
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:80] Excludable found: URL: https://dev.sidneyreeve.co.uk/feed
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/comments/feed
+[2025-08-17 13:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 30
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:80] Excludable found: URL: https://dev.sidneyreeve.co.uk/comments/feed
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-includes/css/dist/block-library/style.min.css
+[2025-08-17 13:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 30
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de22925b7-ldNSeV.tmp
+[2025-08-17 13:50:26] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-includes/css/dist/block-library/style.min.css?simply_static_page=21
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-includes/css/dist/block-library/style.min.css?simply_static_page=21
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:103] Filesize: 116345 bytes
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de22925b7-ldNSeV.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-includes/css/dist/block-library/style.min.css
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:26] [class-ss-page.php:128] Checking Content Identical:04c3e7de74a890d18014588c4e1f077a52d79acc===. Value: FALSE
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/plugins/hide-featured-image-on-all-single-pagepost//tnado-styles.css
+[2025-08-17 13:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 30
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de22b5f18-xdxlYw.tmp
+[2025-08-17 13:50:26] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/plugins/hide-featured-image-on-all-single-pagepost//tnado-styles.css?simply_static_page=22
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/plugins/hide-featured-image-on-all-single-pagepost//tnado-styles.css?simply_static_page=22
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:103] Filesize: 408 bytes
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/hide-featured-image-on-all-single-pagepost//tnado-styles.css
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de22b5f18-xdxlYw.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/plugins/hide-featured-image-on-all-single-pagepost//tnado-styles.css
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:26] [class-ss-page.php:128] Checking Content Identical:69d816718411f1c4e7fec16a93bbcb62ad4bd088===. Value: FALSE
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/plugins/simple-embed-code/css/video-container.min.css
+[2025-08-17 13:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 30
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de22cf998-9lJ7Sh.tmp
+[2025-08-17 13:50:26] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/plugins/simple-embed-code/css/video-container.min.css?simply_static_page=23
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/plugins/simple-embed-code/css/video-container.min.css?simply_static_page=23
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:103] Filesize: 221 bytes
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/simple-embed-code/css/video-container.min.css
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de22cf998-9lJ7Sh.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/plugins/simple-embed-code/css/video-container.min.css
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:26] [class-ss-page.php:128] Checking Content Identical:4d8a97875b7f3d2e22e8c83020b52a57866db9e3===. Value: FALSE
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/style.css
+[2025-08-17 13:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 30
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de22e5aad-t2SXlx.tmp
+[2025-08-17 13:50:26] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/style.css?simply_static_page=24
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/style.css?simply_static_page=24
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:103] Filesize: 123346 bytes
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwenty/style.css
+[2025-08-17 13:50:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de22e5aad-t2SXlx.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/themes/twentytwenty/style.css
+[2025-08-17 13:50:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:27] [class-ss-page.php:128] Checking Content Identical:b7fdde3b32dd792f5f8f9f19fb48e5249f8511bd===. Value: FALSE
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/assets/css/font-inter.css
+[2025-08-17 13:50:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 30
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de2313c36-x3PmdX.tmp
+[2025-08-17 13:50:27] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/assets/css/font-inter.css?simply_static_page=25
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/assets/css/font-inter.css?simply_static_page=25
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:103] Filesize: 674 bytes
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwenty/assets/css/font-inter.css
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de2313c36-x3PmdX.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/themes/twentytwenty/assets/css/font-inter.css
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:27] [class-ss-page.php:128] Checking Content Identical:5ad5b1a6186501f14b38b20f88ea6bcc02d0e6f5===. Value: FALSE
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/print.css
+[2025-08-17 13:50:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 30
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de23309a1-2yPzFv.tmp
+[2025-08-17 13:50:27] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/print.css?simply_static_page=26
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/print.css?simply_static_page=26
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:103] Filesize: 2699 bytes
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwenty/print.css
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de23309a1-2yPzFv.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/themes/twentytwenty/print.css
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:27] [class-ss-page.php:128] Checking Content Identical:b5ab4b60dfc1bce05979bf0f7e5e3fca0ba5553b===. Value: FALSE
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-json/
+[2025-08-17 13:50:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 30
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:80] Excludable found: URL: https://dev.sidneyreeve.co.uk/wp-json/
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/xmlrpc.php
+[2025-08-17 13:50:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 30
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:80] Excludable found: URL: https://dev.sidneyreeve.co.uk/xmlrpc.php
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl
+[2025-08-17 13:50:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 30
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de234fcbf-GzFWE9.tmp
+[2025-08-17 13:50:27] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl?simply_static_page=29
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl?simply_static_page=29
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:103] Filesize: 4171 bytes
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xslt+xml
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wordpress-seo/css/main-sitemap.xsl
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de234fcbf-GzFWE9.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl
+[2025-08-17 13:50:27] [class-ss-yoast-sitemap-handler.php:64] Copied C:/Users/Sidney/Documents/Local Sites/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1755438609/sitemap_index.xml to C:/Users/Sidney/Documents/Local Sites/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1755438609/sitemap.xml
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:27] [class-ss-page.php:128] Checking Content Identical:424bec392863c4738e378d4a55aeddc7d32cf1fc===. Value: FALSE
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/page-sitemap.xml
+[2025-08-17 13:50:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 30
+[2025-08-17 13:50:27] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de2369eeb-G1bwpG.tmp
+[2025-08-17 13:50:27] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/page-sitemap.xml?simply_static_page=30
+[2025-08-17 13:50:27] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/page-sitemap.xml?simply_static_page=30
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:103] Filesize: 2226 bytes
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:233] New filename for static page: /page-sitemap.xml
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de2369eeb-G1bwpG.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/page-sitemap.xml
+[2025-08-17 13:50:28] [class-ss-yoast-sitemap-handler.php:64] Copied C:/Users/Sidney/Documents/Local Sites/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1755438609/sitemap_index.xml to C:/Users/Sidney/Documents/Local Sites/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1755438609/sitemap.xml
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:159] Adding 14 URLs to the queue
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:28] [class-ss-page.php:128] Checking Content Identical:127b6f9f4e9b3231e1f5f0b89840437e87c80e75===. Value: FALSE
+[2025-08-17 13:50:28] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 4 of 30 pages/files
+[2025-08-17 13:50:28] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-08-17 13:50:28] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-08-17 13:50:28] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:69] Total pages: 45; Pages remaining: 15
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2024/10/Fireworks-2023.jpg
+[2025-08-17 13:50:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 45
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de246d439-y4ILFe.tmp
+[2025-08-17 13:50:28] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/uploads/2024/10/Fireworks-2023.jpg?simply_static_page=31
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2024/10/Fireworks-2023.jpg?simply_static_page=31
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:103] Filesize: 95799 bytes
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/Fireworks-2023.jpg
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de246d439-y4ILFe.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/uploads/2024/10/Fireworks-2023.jpg
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:28] [class-ss-page.php:128] Checking Content Identical:b7802af1efb032ab3ad6b4c3e66208753078147d===. Value: FALSE
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-json/wp/v2/pages/266
+[2025-08-17 13:50:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 45
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:80] Excludable found: URL: https://dev.sidneyreeve.co.uk/wp-json/wp/v2/pages/266
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-json/oembed/1.0/embed
+[2025-08-17 13:50:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 45
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:80] Excludable found: URL: https://dev.sidneyreeve.co.uk/wp-json/oembed/1.0/embed
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/05/May-2022-Featured.jpg
+[2025-08-17 13:50:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 45
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de2480189-n86hf3.tmp
+[2025-08-17 13:50:28] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/05/May-2022-Featured.jpg?simply_static_page=34
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/05/May-2022-Featured.jpg?simply_static_page=34
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:103] Filesize: 622573 bytes
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/05/May-2022-Featured.jpg
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de2480189-n86hf3.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/uploads/2022/05/May-2022-Featured.jpg
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:28] [class-ss-page.php:128] Checking Content Identical:63a9338190fde9da324fb75defb56170baf88e18===. Value: FALSE
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-json/wp/v2/pages/94
+[2025-08-17 13:50:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 45
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:80] Excludable found: URL: https://dev.sidneyreeve.co.uk/wp-json/wp/v2/pages/94
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/April-2021-Featured.jpg
+[2025-08-17 13:50:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 45
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de2492ac6-eQuQVi.tmp
+[2025-08-17 13:50:28] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/April-2021-Featured.jpg?simply_static_page=36
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/April-2021-Featured.jpg?simply_static_page=36
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:103] Filesize: 414524 bytes
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/04/April-2021-Featured.jpg
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de2492ac6-eQuQVi.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/uploads/2022/04/April-2021-Featured.jpg
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:28] [class-ss-page.php:128] Checking Content Identical:cfd183df4ad06b95c450aacb80d3d84865aafcda===. Value: FALSE
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-json/wp/v2/pages/39
+[2025-08-17 13:50:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 45
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:80] Excludable found: URL: https://dev.sidneyreeve.co.uk/wp-json/wp/v2/pages/39
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/October-2020-Featured.jpg
+[2025-08-17 13:50:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 45
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de24a540e-XajIJM.tmp
+[2025-08-17 13:50:28] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/October-2020-Featured.jpg?simply_static_page=38
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/October-2020-Featured.jpg?simply_static_page=38
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:103] Filesize: 258965 bytes
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/04/October-2020-Featured.jpg
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de24a540e-XajIJM.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/uploads/2022/04/October-2020-Featured.jpg
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:28] [class-ss-page.php:128] Checking Content Identical:d668e09850cbb1c4ce2a11cbf32e9351cac721df===. Value: FALSE
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-json/wp/v2/pages/48
+[2025-08-17 13:50:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 45
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:80] Excludable found: URL: https://dev.sidneyreeve.co.uk/wp-json/wp/v2/pages/48
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/May-2019-Featured-scaled.jpg
+[2025-08-17 13:50:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 45
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de24b76f4-odZMC1.tmp
+[2025-08-17 13:50:28] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/May-2019-Featured-scaled.jpg?simply_static_page=40
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/May-2019-Featured-scaled.jpg?simply_static_page=40
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:103] Filesize: 593916 bytes
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/04/May-2019-Featured-scaled.jpg
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de24b76f4-odZMC1.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/uploads/2022/04/May-2019-Featured-scaled.jpg
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:28] [class-ss-page.php:128] Checking Content Identical:f61924bafaddeca42cbbfa75d869fdc7a4469658===. Value: FALSE
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-json/wp/v2/pages/59
+[2025-08-17 13:50:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 45
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:80] Excludable found: URL: https://dev.sidneyreeve.co.uk/wp-json/wp/v2/pages/59
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/March-2019-Featured-scaled.jpg
+[2025-08-17 13:50:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 45
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de24cd9ea-yOG4Aw.tmp
+[2025-08-17 13:50:28] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/March-2019-Featured-scaled.jpg?simply_static_page=42
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/uploads/2022/04/March-2019-Featured-scaled.jpg?simply_static_page=42
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:103] Filesize: 1028614 bytes
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/04/March-2019-Featured-scaled.jpg
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de24cd9ea-yOG4Aw.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/uploads/2022/04/March-2019-Featured-scaled.jpg
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:28] [class-ss-page.php:128] Checking Content Identical:cebd84eaf5e2ec4e922f50d1f17743e3b1307ba5===. Value: FALSE
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-json/wp/v2/pages/65
+[2025-08-17 13:50:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 45
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:80] Excludable found: URL: https://dev.sidneyreeve.co.uk/wp-json/wp/v2/pages/65
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/assets/fonts/inter/Inter-upright-var.woff2
+[2025-08-17 13:50:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 45
+[2025-08-17 13:50:28] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de24e75ea-1jsQTS.tmp
+[2025-08-17 13:50:28] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/assets/fonts/inter/Inter-upright-var.woff2?simply_static_page=44
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/assets/fonts/inter/Inter-upright-var.woff2?simply_static_page=44
+[2025-08-17 13:50:28] [class-ss-url-fetcher.php:103] Filesize: 223892 bytes
+[2025-08-17 13:50:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: 
+[2025-08-17 13:50:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwenty/assets/fonts/inter/Inter-upright-var.woff2
+[2025-08-17 13:50:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de24e75ea-1jsQTS.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/themes/twentytwenty/assets/fonts/inter/Inter-upright-var.woff2
+[2025-08-17 13:50:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:29] [class-ss-page.php:128] Checking Content Identical:81dbe45ccd7fae3a0a298c5c166b4317c985f538===. Value: FALSE
+[2025-08-17 13:50:29] [class-ss-fetch-urls-task.php:73] URL: https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/assets/fonts/inter/Inter-italic-var.woff2
+[2025-08-17 13:50:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 45
+[2025-08-17 13:50:29] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-08-17 13:50:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de2507063-hKsZ36.tmp
+[2025-08-17 13:50:29] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/assets/fonts/inter/Inter-italic-var.woff2?simply_static_page=45
+[2025-08-17 13:50:29] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/wp-content/themes/twentytwenty/assets/fonts/inter/Inter-italic-var.woff2?simply_static_page=45
+[2025-08-17 13:50:29] [class-ss-url-fetcher.php:103] Filesize: 236832 bytes
+[2025-08-17 13:50:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: 
+[2025-08-17 13:50:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwenty/assets/fonts/inter/Inter-italic-var.woff2
+[2025-08-17 13:50:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de2507063-hKsZ36.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609/wp-content/themes/twentytwenty/assets/fonts/inter/Inter-italic-var.woff2
+[2025-08-17 13:50:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-08-17 13:50:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-08-17 13:50:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-08-17 13:50:29] [class-ss-page.php:128] Checking Content Identical:f654d46d8251f941c3ef2b3a4b363ffcadb871f0===. Value: FALSE
+[2025-08-17 13:50:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 30 of 45 pages/files
+[2025-08-17 13:50:29] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-08-17 13:50:30] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-08-17 13:50:30] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-08-17 13:50:30] [class-ss-fetch-urls-task.php:69] Total pages: 45; Pages remaining: 0
+[2025-08-17 13:50:30] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 45 of 45 pages/files
+[2025-08-17 13:50:30] [class-ss-archive-creation-job.php:233] We've found our next task: generate_404
+[2025-08-17 13:50:30] [class-ss-archive-creation-job.php:194] Current task: generate_404
+[2025-08-17 13:50:30] [class-ss-archive-creation-job.php:208] Performing task: generate_404
+[2025-08-17 13:50:30] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2025-08-17 13:50:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68a1de2614720-6nHoEF.tmp
+[2025-08-17 13:50:30] [class-ss-page-handler.php:53] URL Prepared:https://dev.sidneyreeve.co.uk/1755438631?simply_static_page=0
+[2025-08-17 13:50:30] [class-ss-url-fetcher.php:251] Fetching URL: https://dev.sidneyreeve.co.uk/1755438631?simply_static_page=0
+[2025-08-17 13:50:30] [class-ss-url-fetcher.php:103] Filesize: 32087 bytes
+[2025-08-17 13:50:30] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-08-17 13:50:30] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2025-08-17 13:50:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68a1de2614720-6nHoEF.tmp to C:\Users\Sidney\Documents\Local Sites\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1755438609\404/index.html
+[2025-08-17 13:50:30] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2025-08-17 13:50:31] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2025-08-17 13:50:31] [class-ss-page.php:128] Checking Content Identical:a5fda14da598ba09194c4f82ac0ccbe81b62b285===. Value: FALSE
+[2025-08-17 13:50:31] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2025-08-17 13:50:31] [class-ss-archive-creation-job.php:233] We've found our next task: create_zip_archive
+[2025-08-17 13:50:31] [class-ss-archive-creation-job.php:194] Current task: create_zip_archive
+[2025-08-17 13:50:31] [class-ss-archive-creation-job.php:208] Performing task: create_zip_archive
+[2025-08-17 13:50:31] [class-ss-create-zip-archive.php:85] Fetching list of files to include in zip
+[2025-08-17 13:50:31] [class-ss-create-zip-archive.php:94] Creating zip archive
+[2025-08-17 13:50:31] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a download href="https://dev.sidneyreeve.co.uk/wp-content/uploads/simply-static/temp-files/simply-static-1-1755438609.zip">Click here to download</a>
+[2025-08-17 13:50:31] [class-ss-archive-creation-job.php:233] We've found our next task: wrapup
+[2025-08-17 13:50:31] [class-ss-archive-creation-job.php:194] Current task: wrapup
+[2025-08-17 13:50:31] [class-ss-archive-creation-job.php:208] Performing task: wrapup
+[2025-08-17 13:50:31] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-08-17 13:50:31] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-08-17 13:50:31] [class-ss-archive-creation-job.php:228] This task is done and there are no more tasks, time to complete the job
+[2025-08-17 13:50:31] [class-ss-archive-creation-job.php:273] Completing the job
+[2025-08-17 13:50:31] [class-ss-archive-creation-job.php:414] Status message: [done] Done! Finished in 00:00:22
